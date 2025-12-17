@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>GameZone - Connexion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎮 GameZone</h1>
+
+    <!-- INSCRIPTION -->
+    <h2>Inscription</h2>
+    <input type="text" id="registerUser" placeholder="Pseudo">
+    <input type="password" id="registerPass" placeholder="Mot de passe">
+    <button onclick="register()">S'inscrire</button>
+
+    <hr>
+
+    <!-- CONNEXION -->
+    <h2>Connexion</h2>
+    <input type="text" id="loginUser" placeholder="Pseudo">
+    <input type="password" id="loginPass" placeholder="Mot de passe">
+    <button onclick="login()">Se connecter</button>
+
+    <p id="message"></p>
+</div>
+
+<script src="auth.js"></script>
+</body>
+</html>
